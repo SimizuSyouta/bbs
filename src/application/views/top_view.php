@@ -8,9 +8,9 @@
 style="position:absolute; top:0px; left:0px; z-index:1;">
 <div style="position:absolute; top:10px; left:10px; z-index:2">
 <font size="5"color="#000000"><b>
-  Welcome to Free Space!!  
+  Welcome to Free Space!!
   <?php
-  print $_POST['nickname'];
+  print $_POST['username'];
   print '様';
   ?>
 </b>
@@ -19,5 +19,13 @@ style="position:absolute; top:0px; left:0px; z-index:1;">
 <br>
   <font size="7" color="#0000bb">好きなカテゴリを選択してください。
 </font>
+<br>
+<br>
+<img src="http://localhost/img/job.jpg" />
+<img src="http://localhost/img/game.jpg" />
+<img src="http://localhost/img/supo.jpg" />
+<img src="http://localhost/img/music.jpg" />
+
+
 </body>
 </html>
