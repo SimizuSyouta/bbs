@@ -11,24 +11,20 @@
     </div>
 
 
-    <font size="7"><b>Create new account</font></b>
+    <font size="7"><b>働き者のみなさん！ようこそ！</font></b>
     <form action="<?php echo base_url().'userdata'; ?>" method="post">
       <br>
-
-
-
+  
       <font size="4">
-        <b>User ID:</b>
-        <input name="username" type="text" style="width:100px">
+        <b>投稿フォーム:</b>
+        <input name="username" type="text" style="width:500px height:500px">
         <br>
         <br>
         <br>
-        <b>Passwd:</b>
-        <input name="password" type="text" style="width:100px">
         </font>
       <br>
       <br>
-      <input type="submit" value="登録する">
+      <input type="submit" value="投稿する">
 
     </form>
 
