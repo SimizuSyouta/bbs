@@ -1,7 +1,7 @@
 <html>
   <head>
     <mata http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>ジョブルーム</title>
+    <title>スポーツルーム</title>
   </head>
   <body>
     <header>
@@ -18,10 +18,10 @@
 </header>
 <hr>
         <body style="background-color: #f0ffff;">
-    <font size="7"><b>働き者のみなさん！ようこそ！</font></b>
+    <font size="7"><b>スポーツについて語り合いましょう</font></b>
     <br>
     <p><b>ここは働いていて感じた不満や出来事を書く部屋です。</b></p>
-    <form action="<?php echo base_url().'job/send'; ?>" method="post">
+    <form action="<?php echo base_url().'music/send'; ?>" method="post">
 
       <br>
 
@@ -45,7 +45,7 @@
 </form>
 <font size="4">
 <?php
-foreach(@(array)$talkdata as $key => $value):?>
+foreach(@(array)$musicdata as $key => $value):?>
 <?php echo  "<b>". "No."."</b>".$key."<b>"."： Username ："."</b>".$value['username']."<br><br>".$value['comment']."<br><br>";?>
 <?php endforeach;?>
 </hr>

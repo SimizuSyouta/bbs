@@ -1,4 +1,4 @@
 create table account(
-UserId int (64),
-UserName varchar(32),
-Password int (64));
+  username varchar(32),
+  password varchar (32)
+);

@@ -21,16 +21,16 @@
       <br>
       <br>
 
-      <p><a href="Room/job">
+      <p><a href="job">
       <img src="../img/job.jpg"alt="サンプル画像">
       </a>
-      <p><a href="Room/game">
+      <p><a href="game">
       <img src="../img/game.jpg"alt="サンプル画像">
     </a>
-      <p><a href="Room/supo">
+      <p><a href="sports">
     <img src="../img/supo.jpg"alt="サンプル画像">
   </a>
-  <p><a href="Room/music">
+  <p><a href="music">
   <img src="../img/music.jpg"alt="サンプル画像">
   </a>
 

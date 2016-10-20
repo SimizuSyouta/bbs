@@ -5,6 +5,9 @@
    <title>ログイン画面</title>
 
     <body>
+      <header>
+        <a href="login/account">新規アカウント作成</a>
+      </header>
     <img src="img/12986.jpg" width="100%" height="100%"
     style="position:absolute; top:0px; left:0px; z-index:1;">
     <div style="position:absolute; top:10px; left:10px; z-index:2">
