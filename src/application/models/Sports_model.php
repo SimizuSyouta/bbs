@@ -1,11 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Sports_model extends CI_Controller
+class Sports_model extends CI_Model
 {
       function __construct()
     {
         parent:: __construct();
         $this->load->database();
+        $this->load->library('session');
     }
 
 public  function index()
@@ -13,6 +14,8 @@ public  function index()
 $data = array("userid"=>$this->input->post('userid',true),'username'=>$this->input->post("username",true),
 'comment'=>$this->input->post("comment",true),);
 $this->db->insert('sportsdata',$data);
+$this->session->set_userdata($data);
+
 $query = $this->db->query('SELECT * FROM talkdata');
 //$data['gamedata'] = [];
 if($query->num_rows() > 0)

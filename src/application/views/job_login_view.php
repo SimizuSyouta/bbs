@@ -14,8 +14,9 @@
 
 
     <font size="7"><b>Free Space</font></b>
-    <form method="post" action="login/check">
+    <form method="post" action="job">
       <br>
+
 
 
       <font size="4">
@@ -32,11 +33,12 @@
        <input type="submit" value="ログイン">
       </form>
 
-    <form method="post" action="newaccount/redirect">
+    <form method="post" action="login/account">
       <font size = 7>New account</font>
       <br>
       <input type="submit" value="アカウント作成">
 
     </form>
+
     </body>
 </html>

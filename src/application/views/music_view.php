@@ -1,29 +1,31 @@
 <html>
   <head>
     <mata http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>スポーツルーム</title>
+    <title>Musicroom</title>
   </head>
   <body>
     <header>
-<font size="7">Free spase</font>
+      <center>
+<font size="7">Free spase Music Room</font>
 <br>
+<br>
+<b>音楽好きの皆さんようこそ！！！<p>好きな音楽やアーティストについて語りあいましょう。</b></p>
 <br>
 <font size="4">
-  <a href="<?php echo base_url().'job'; ?>">仕事</a>
-  <a href="<?php echo base_url().'game'; ?>">ゲーム</a>
-  <a href="<?php echo base_url().'sports'; ?>">スポーツ</a>
-  <a href="<?php echo base_url().'music'; ?>">音楽</a>
-
+<a href="<?php echo base_url().'job'; ?>">仕事</a>
+<a href="<?php echo base_url().'game'; ?>">ゲーム</a>
+<a href="<?php echo base_url().'sports'; ?>">スポーツ</a>
+<a href="<?php echo base_url().'music'; ?>">音楽</a>
+<a href="<?php echo base_url().'logout';  ?>">ログアウト</a>
 </font>
+</center>
 </header>
 <hr>
         <body style="background-color: #f0ffff;">
-    <font size="7"><b>スポーツについて語り合いましょう</font></b>
     <br>
-    <p><b>ここは働いていて感じた不満や出来事を書く部屋です。</b></p>
+
     <form action="<?php echo base_url().'music/send'; ?>" method="post">
 
-      <br>
 
       <font size="4">
 

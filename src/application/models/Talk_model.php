@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Talk_model extends CI_Controller {
+class Talk_model extends CI_Model {
   function __construct()
 {
     parent:: __construct();

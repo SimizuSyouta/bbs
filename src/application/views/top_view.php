@@ -9,28 +9,32 @@
       <div style="position:absolute; top:10px; left:10px; z-index:2">
         <font size="5"color="#000000"><b>
             Welcome to Free Space!!
-            <?php
-            print $_POST['username'];
-            print '様';
-            ?>
+
           </b>
         </font>
       <br>
       <br>
+      <?php
+
+	//print_r ($this->session->all_userdata());
+
+	?>
+
         <font size="7" color="#0000bb">好きなカテゴリを選択してください。</font>
       <br>
       <br>
-
-      <p><a href="job">
+<br>
+<br>
+      <a href="job">
       <img src="../img/job.jpg"alt="サンプル画像">
       </a>
-      <p><a href="game">
+      <a href="game">
       <img src="../img/game.jpg"alt="サンプル画像">
     </a>
-      <p><a href="sports">
+      <a href="sports">
     <img src="../img/supo.jpg"alt="サンプル画像">
   </a>
-  <p><a href="music">
+  <a href="music">
   <img src="../img/music.jpg"alt="サンプル画像">
   </a>
 

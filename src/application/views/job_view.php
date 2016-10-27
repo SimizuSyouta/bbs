@@ -5,22 +5,27 @@
   </head>
   <body>
     <header>
-<font size="7">Free spase</font>
-<br>
-<br>
-<font size="4">
-  <a href="<?php echo base_url().'job'; ?>">仕事</a>
-  <a href="<?php echo base_url().'game'; ?>">ゲーム</a>
-  <a href="<?php echo base_url().'sports'; ?>">スポーツ</a>
-  <a href="<?php echo base_url().'music'; ?>">音楽</a>
+      <center>
+        <font size="7">Free spase Job Room</font>
+        <br>
+        <br>
+        <b>働き者のみなさん！ようこそ!!<p>ここは働いていて感じた不満や出来事を書く部屋です。</p></b>
+        <br>
+        <font size="4">
+          <a href="<?php echo base_url().'job'; ?>">仕事</a>
+          <a href="<?php echo base_url().'game'; ?>">ゲーム</a>
+          <a href="<?php echo base_url().'sports'; ?>">スポーツ</a>
+          <a href="<?php echo base_url().'music'; ?>">音楽</a>
+          <a href="<?php echo base_url().'logout';  ?>">ログアウト</a>
 
-</font>
-</header>
-<hr>
+        </font>
+      </center>
+    </header>
+    <hr>
         <body style="background-color: #f0ffff;">
-    <font size="7"><b>働き者のみなさん！ようこそ！</font></b>
     <br>
-    <p><b>ここは働いていて感じた不満や出来事を書く部屋です。</b></p>
+
+
     <form action="<?php echo base_url().'job/send'; ?>" method="post">
 
       <br>
